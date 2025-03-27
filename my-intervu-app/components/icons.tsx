@@ -184,3 +184,17 @@ export const SearchIcon = (props: IconSvgProps) => (
     />
   </svg>
 );
+
+export const LinkedInIcon: React.FC<IconSvgProps> = ({ size = 24, width, height, ...props }) => (
+  <svg
+    height={size || height}
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+    <path
+      d="M4.98 3.5C4.98 2.12 6.1 1 7.48 1c1.38 0 2.5 1.12 2.5 2.5S8.86 6 7.48 6C6.1 6 4.98 4.88 4.98 3.5zM4.98 8h5v12h-5V8zm7.5 0h4.5v1.75h.06c.63-1.2 2.17-2.47 4.44-2.47 4.75 0 5.62 3.12 5.62 7.18V20h-5v-6.25c0-1.5-.03-3.43-2.09-3.43-2.09 0-2.41 1.63-2.41 3.31V20h-5V8z"
+      fill="currentColor"
+    />
+  </svg>
+);
